@@ -9,5 +9,5 @@ pip install -r requirements.txt
 
 ## Run
 ```
-streamlit run app.py
+streamlit run home.py
 ```
