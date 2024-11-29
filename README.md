@@ -11,3 +11,14 @@ pip install -r requirements.txt
 ```
 streamlit run home.py
 ```
+
+## Notes
+- text output supports markdown, latex, and html/css, you can also easily show code, json, images, etc.
+- use `st.cache_data` for data that doesn't change often, use `st.cache_resource` to share objects across sessions
+- data visualization is a first-class concern in Streamlit, with built-in support for charts and graphs
+- secrets are stored in `.streamlit/secrets.toml` and can be accessed with `st.secrets["key"]`, make sure you add it to `.gitignore` to avoid leaking secrets
+- session state is a way to share data between runs, it can be accessed with `st.session_state.key`
+
+## References
+- [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
+- [Streamlit Cheat Sheet](https://docs.streamlit.io/library/cheatsheet)
