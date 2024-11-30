@@ -1,5 +1,6 @@
 # hello-streamlit
-Small projects to learn Streamlit. You can see a demo [here](https://data-rabbit.streamlit.app/).
+Small projects to learn Streamlit. Try it out: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://data-rabbit.streamlit.app/)
+
 
 ## Requirements
 Install the requirements:
