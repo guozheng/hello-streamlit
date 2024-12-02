@@ -4,10 +4,10 @@ import pandas as pd
 import numpy as np
 
 # Using st.cache_data for data that doesn't change often
-@st.cache_data
+@st.cache_data(ttl=60*5, show_spinner="Loading data...")
 def load_data():
     # Simulate loading large dataset
-    time.sleep(2)  # Simulate delay
+    time.sleep(5)  # Simulate delay
     df = pd.DataFrame(
         np.random.randn(1000, 5),
         columns=['A', 'B', 'C', 'D', 'E']
